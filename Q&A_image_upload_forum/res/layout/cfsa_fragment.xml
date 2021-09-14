@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/cfsa_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#00cc18"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="A code to find the longest Palindromic Subsequence" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/cfsa_imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@drawable/image_border"
+        android:cropToPadding="true"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="339dp" />
+
+
+    <ImageButton
+        android:id="@+id/cfsa_imageButton"
+        android:layout_width="82dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@android:color/white"
+        android:tint="@android:color/darker_gray"
+        app:srcCompat="@drawable/ic_photo_camera_black_24dp"
+        app:useCompatPadding="true"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="260dp" />
+</LinearLayout>

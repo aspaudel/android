@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/online_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00cc18"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/answer_online_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/app_recycler_view_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
